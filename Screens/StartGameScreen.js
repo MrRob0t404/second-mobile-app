@@ -12,7 +12,7 @@ const StartGameScreen = props => {
                 <TextInput />
                 <View style={styles.buttonContainer}>
                     <View><Button title='reset' onPress={() => console.log('button pressed')} /></View>
-                    <View><Button title='confirm' onPress={() => console.log('button pressed')} /></View>
+                    <View><Button title='confirm' onPress={() => console.log('button pressed')} color='#f7287b' /></View>
                 </View>
             </Card>
         </View>
